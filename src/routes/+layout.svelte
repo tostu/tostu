@@ -1,6 +1,7 @@
 <script lang="ts">
-	import '../app.css';
+	import 'sanitize.css';
 	import 'terminal.css'
+	import '../app.css';
 	let { children } = $props();
 </script>
 

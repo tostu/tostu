@@ -36,6 +36,8 @@
 		"vitest": "^2.0.4"
 	},
 	"dependencies": {
+		"@fontsource/bitter": "^5.1.0",
+		"sanitize.css": "^13.0.0",
 		"terminal.css": "^0.7.5"
 	}
 }

@@ -50,7 +50,6 @@
       
     </p>
     <p>
-      Outside of programming and helping my wife take care of our two kids, I enjoy video games (soulsborne & roguelikes are my favorite), karaoke, Japanese food, UFC/NBA/F1, and collecting watches. 
     </p>
   </div>
 

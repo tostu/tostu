@@ -1,0 +1,16 @@
+{
+    "name": "tostu",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "svelte.svelte-vscode",
+          "esbenp.prettier-vscode",
+          "dbaeumer.vscode-eslint"
+        ]
+      }
+    },
+    "forwardPorts": [3000],
+    "postCreateCommand": "cd /workspace && npm install"
+  }

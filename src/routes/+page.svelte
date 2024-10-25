@@ -25,13 +25,13 @@
 
 </style>
 
-  <div class="container">
+  <div class="tw-container tw-mx-auto">
 
   <Topbar></Topbar>
-  <div class="row justify-between">
+  <div class="tw-row tw-justify-between">
 
 
-  <div class="w-[50%]">
+  <div class="tw-w-[50%]">
     <h2>My name is Torge Stubbe.</h2>
     <p>
       I am a professionally trained software developer based in northern Germany, self-identified as a Full Stack developer. I currently work at <a href="https://fricke.de">FRICKE Group</a>, where I maintain the <a href="https://granit-parts.com">granit-parts</a> B2B webshop. Most of my  private work is open source and publicly available on GitHub.
@@ -44,7 +44,7 @@
   </div>
 
   <!-- <Polaroid src={me} caption="me"></Polaroid> -->
-  <div class="col items-center w-[50%]">
+  <div class="tw-col tw-items-center tw-w-[50%]">
     <img id="me" src={me} alt="" srcset="">
   </div>
 

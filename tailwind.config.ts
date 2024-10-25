@@ -6,6 +6,7 @@ export default {
 	theme: {
 		extend: {}
 	},
-
+	prefix: 'tw-',
+	
 	plugins: []
 } as Config;

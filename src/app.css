@@ -1,3 +1,4 @@
+@import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import '@fontsource/bitter';
 
@@ -7,29 +8,30 @@ body {
     -webkit-font-smoothing: antialiased;
     padding: 5vh 10vw;
     color: #121314;
-    min-height: 100svh
+    min-height: 100svh;
+    background-color: #e7e7e7;
 }
 
-.col{
-    @apply flex flex-col;
+.tw-col{
+    @apply tw-flex tw-flex-col;
 }
 
-.col-center-h{
-    @apply items-center
+.tw-col-center-h{
+    @apply tw-items-center
 }
 
-.col-center-w{
-    @apply justify-center
+.tw-col-center-w{
+    @apply tw-justify-center
 }
 
-.row{
-    @apply flex flex-row
+.tw-row{
+    @apply tw-flex tw-flex-row
 }
 
-.row-center-h{
-    @apply justify-center
+.tw-row-center-h{
+    @apply tw-justify-center
 }
 
-.row-center-w{
-    @apply items-center
+.tw-row-center-w{
+    @apply tw-items-center
 }

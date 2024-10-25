@@ -1,7 +1,6 @@
 <script>
   import Topbar from '$lib/component/Topbar.svelte';
-  import me from '$lib/asset/me.jpeg';
-	import Polaroid from '$lib/component/Polaroid.svelte';
+  import me from '$lib/asset/me_polaroid.png';
 </script>
   
 <style>
@@ -20,28 +19,19 @@
   }
 
   #me{
-    mask-image: url('$lib/asset/scribble.png');
-    mask-size: 650px;
-    mask-position: right;
-    mask-repeat: no-repeat;
-    width: 600px;
-    height: auto;
+    max-height: 500px;
+    object-fit: contain;
   }
-
-  #me img{
-    object-position: top;
-    object-fit: fill;
-  }
-
 
 </style>
 
+  <div class="container">
 
   <Topbar></Topbar>
   <div class="row justify-between">
 
 
-  <div>
+  <div class="w-[50%]">
     <h2>My name is Torge Stubbe.</h2>
     <p>
       I am a professionally trained software developer based in northern Germany, self-identified as a Full Stack developer. I currently work at <a href="https://fricke.de">FRICKE Group</a>, where I maintain the <a href="https://granit-parts.com">granit-parts</a> B2B webshop. Most of my  private work is open source and publicly available on GitHub.
@@ -54,8 +44,10 @@
   </div>
 
   <!-- <Polaroid src={me} caption="me"></Polaroid> -->
-   
-  <!-- <div id="me">
-    <img  src={me} alt="" srcset="">
-  </div> -->
+  <div class="col items-center w-[50%]">
+    <img id="me" src={me} alt="" srcset="">
+  </div>
+
+</div>
+
 </div>

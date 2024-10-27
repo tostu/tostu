@@ -35,7 +35,7 @@
   <div class="md:tw-w-[50%]">
     <h2>My name is Torge Stubbe.</h2>
     <p>
-      I'm a professionally trained Full Stack software developer based in northern Germany. Currently, I work at <a href="https://fricke.de">FRICKE Group</a>, where I maintain and enhance the <a href="https://granit-parts.com">granit-parts</a> B2B webshop. Most of my personal projects are open source and available on GitHub.
+      I'm a professionally trained Full Stack software developer based in northern Germany. Currently, I work at <a href="https://fricke.de" target="_blank">FRICKE Group</a>, where I maintain and enhance the <a href="https://granit-parts.com" target="_blank">granit-parts</a> B2B webshop. Most of my personal projects are open source and available on <a href="https://github.com/tostu" target="_blank">GitHub</a>.
     <p>
       
     </p>

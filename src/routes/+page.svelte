@@ -26,7 +26,7 @@
 
 </style>
 
-  <div class="tw-container tw-mx-auto tw-px-44">
+  <div class="tw-container tw-mx-auto md:tw-px-44">
 
   <Topbar></Topbar>
   <div class="tw-flex tw-flex-col md:tw-flex-row tw-justify-between">

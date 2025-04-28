@@ -8,7 +8,7 @@ export function GET() {
 				livekit_service_url: 'https://livekit-jwt.call.matrix.org'
 			}
 		],
-		'm.homeserver': { base_url: 'https://matrix.tostu.me:443' }
+		'm.homeserver': { base_url: 'https://matrix.tostu.me' }
 	};
 
 	return new Response(JSON.stringify(data), {

@@ -11,9 +11,10 @@ export function GET() {
 		]
 	};
 
-	return new Response(JSON.stringify(data), {
+	return new Response(data, {
 		headers: {
-			'Content-Type': 'application/json'
+			'Content-Type': 'application/json',
+			'Access-Control-Allow-Origin': '*'
 		}
 	});
 }
